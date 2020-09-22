@@ -1,7 +1,11 @@
 const app = require("express")();
+const request = require("request");
 
 app.get("/asset/:id", (req, res) => {
-  request.get("https://assetdelivery.roblox.com/v1/asset/?id=" + req.params.id).on("response", resp => res.send(resp.headers["location"]));
+  request.get({
+    url: "https://assetdelivery.roblox.com/v1/asset/?id=" + req.params.id, 
+    followAllRedirects: true
+  }).on("response", resp => res.send(resp.request.uri.href));
 });
 
 app.listen(process.env.PORT);
