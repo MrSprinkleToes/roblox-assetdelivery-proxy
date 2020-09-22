@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/MrSprinkleToes/roblox-assetdelivery-proxy/issues"
   },
-  "homepage": "https://github.com/MrSprinkleToes/roblox-assetdelivery-proxy#readme"
+  "homepage": "https://github.com/MrSprinkleToes/roblox-assetdelivery-proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
