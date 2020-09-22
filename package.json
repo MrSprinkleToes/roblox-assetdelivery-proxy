@@ -1,5 +1,5 @@
 {
-  "name": "node-example",
+  "name": "node-app",
   "version": "1.0.0",
   "description": "This example is so cool.",
   "main": "app.js",
@@ -11,5 +11,14 @@
     "example",
     "heroku"
   ],
-  "author": "mrsprinkletoes"
+  "author": "mrsprinkletoes",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrSprinkleToes/roblox-assetdelivery-proxy.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrSprinkleToes/roblox-assetdelivery-proxy/issues"
+  },
+  "homepage": "https://github.com/MrSprinkleToes/roblox-assetdelivery-proxy#readme"
 }
